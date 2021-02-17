@@ -46,6 +46,12 @@ header {
 
 .nav__list-item {
     margin-right: 32px;
+    transition: 0.3s;
+}
+
+.nav__list-item:hover {
+    text-decoration: underline;
+    
 }
 
 .nav__link {
