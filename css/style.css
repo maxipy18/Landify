@@ -1,0 +1,128 @@
+:root {
+    --black: #18191F;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;    
+}
+
+/* ----------------- header----------- */
+
+
+header {
+    background-image: url('../img/header_background.png');
+    background-repeat: no-repeat;
+
+}
+
+.header__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0;
+}
+
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__list {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.nav__list-item {
+    margin-right: 32px;
+}
+
+.nav__link {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--black);
+}
+
+.nav__list-item:last-of-type {    
+    position: relative;
+    
+}
+
+.nav__list-item:last-of-type::after {
+    content: "";
+    width: 18px;
+    height: 18px;
+    background-image: url('../img/chevron-down.svg');    
+    background-repeat: no-repeat; 
+    position: absolute; 
+    top: 4px;    
+    cursor: pointer;
+  
+}
+
+.header__link {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__link a {
+    margin-right: 12px;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 96px;
+    padding-bottom: 58px;
+}
+
+
+.inner__content-title {
+    font-size: 72px;
+    font-weight: 800;
+    line-height: 98px;
+    color: var(--black);
+    margin-top: 72px;    
+    margin-bottom: 32px;
+}
+
+.inner__btn {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 16px 41px;
+    background-color: #8C30F5;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* ------------ logo__clouds---------- */
+
+.logo__clouds {
+    padding: 16px 0;
+}
+
+.logo__list {
+    padding: 25px 0;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    border-image: linear-gradient(to left, #fff, #C0CCDA, #fff);
+    border-image-slice: 1;
+    display: flex;
+    justify-content: center;
+    column-gap: 64px;
+}
