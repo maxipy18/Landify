@@ -377,3 +377,54 @@ header {
     margin: 0;
     
 }
+
+/* ----------- headline ----------- */
+
+
+.headline__content {
+    display: flex;
+    padding: 64px 0;
+    
+}
+
+.headline__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 48px;
+    padding-right: 48px;
+}
+
+.headline__title {
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+
+.headline__text {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.headline__btn {
+    color: #8C30F5;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;    
+    position: relative;
+    
+    
+}
+
+.headline__btn::after {
+    content: "";
+    width: 24px;
+    height: 24px;
+    background-image: url('../img/right-arrow.svg');
+    background-repeat: no-repeat;
+    position: absolute;
+    margin-left: 8px;
+    top: 3px;
+    
+}
