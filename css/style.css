@@ -472,3 +472,61 @@ header {
 .trends__img {
     padding-bottom: 64px;
 }
+
+/* ---------- projects ----------- */
+
+
+.projects {
+    background-color: #2EC5CE;
+}
+
+.project__block {
+    display: flex;
+    padding-top: 68px;
+    padding-bottom: 67px;
+}
+
+.project__content {
+    width: 50%;    
+}
+
+.project__title {
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 64px;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.project__text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    padding-right: 10px;    
+    margin-bottom: 48px;
+}
+
+.project__link-text {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: 8px;
+}
+
+.project__link-google {
+    margin-right: 12px;
+}
+
+.project__img {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: -20px;
+}
+
+.img__top {              
+    margin-top: -68px;  
+}
+
+.img__bottom {          
+    margin-bottom: -67px;    
+}
